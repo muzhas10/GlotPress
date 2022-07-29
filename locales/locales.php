@@ -1118,15 +1118,19 @@ class GP_Locales {
 		$ga->google_code = 'ga';
 		$ga->facebook_locale = 'ga_IE';
 
-		$gax = new GP_Locale();
-		$gax->english_name = 'Borana-Arsi-Guji Oromo';
-		$gax->native_name = 'Afaan Oromoo';
-		$gax->lang_code_iso_639_3 = 'gax';
-		$gax->country_code = 'et';
-		$gax->slug = 'gax';
-		$gax->wp_locale = 'gax';
-		$gax->nplurals = 2;
-		$gax->plural_expression = 'n > 1';
+		$orm = new GP_Locale();
+		$orm->english_name = 'Oromo';
+		$orm->native_name = 'Afaan Oromoo';
+		$orm->lang_code_iso_639_1 = 'or';
+		$orm->lang_code_iso_639_2 = 'orm';
+		$orm->lang_code_iso_639_3 = 'orm';
+		$orm->country_code = 'ET, KE';
+		$orm->wp_locale = 'or';
+		$orm->slug = 'om';
+		$orm->nplurals = 2;
+		$orm->plural_expression = 'n > 1';
+		$orm->google_code = 'om_ET';
+		$orm->facebook_locale = 'om_KE';
 
 		$gd = new GP_Locale();
 		$gd->english_name = 'Scottish Gaelic';
@@ -1879,15 +1883,6 @@ class GP_Locales {
 		$oci->slug = 'oci';
 		$oci->nplurals = 2;
 		$oci->plural_expression = 'n > 1';
-
-		$orm = new GP_Locale();
-		$orm->english_name = 'Oromo';
-		$orm->native_name = 'Afaan Oromo';
-		$orm->lang_code_iso_639_1 = 'om';
-		$orm->lang_code_iso_639_2 = 'orm';
-		$orm->lang_code_iso_639_3 = 'orm';
-		$orm->slug = 'orm';
-		$orm->plural_expression = 'n > 1';
 
 		$ory = new GP_Locale();
 		$ory->english_name = 'Oriya';
