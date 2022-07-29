@@ -1127,6 +1127,21 @@ class GP_Locales {
 		$gax->wp_locale = 'gax';
 		$gax->nplurals = 2;
 		$gax->plural_expression = 'n > 1';
+		
+		
+		$orm = new GP_Locale();
+		$orm->english_name = 'Oromo';
+		$orm->native_name = 'Afaan Oromoo';
+		$orm->lang_code_iso_639_1 = 'or';
+		$orm->lang_code_iso_639_2 = 'orm';
+		$orm->lang_code_iso_639_3 = 'orm';
+		$orm->country_code = 'ET, KE';
+		$orm->wp_locale = 'om';
+		$orm->slug = 'om';
+		$orm->nplurals = 2;
+		$orm->plural_expression = 'n > 1';
+		$orm->google_code = 'om_ET';
+		$orm->facebook_locale = 'om_KE';
 
 		$gd = new GP_Locale();
 		$gd->english_name = 'Scottish Gaelic';
